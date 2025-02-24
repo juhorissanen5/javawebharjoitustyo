@@ -1,0 +1,70 @@
+.custom-grid {
+    margin: 1em 0;
+    box-shadow: var(--lumo-box-shadow-s);
+    border-radius: var(--lumo-border-radius-l);
+}
+
+/* Filter styling */
+.filter-field {
+    margin-right: var(--lumo-space-m);
+    background: var(--lumo-contrast-5pct);
+    border-radius: var(--lumo-border-radius-m);
+}
+
+.filter-container {
+    padding: var(--lumo-space-m);
+    background: var(--lumo-contrast-5pct);
+    border-radius: var(--lumo-border-radius-m);
+    margin-bottom: var(--lumo-space-m);
+}
+
+.filter-buttons {
+    margin: var(--lumo-space-m) 0;
+    justify-content: flex-end;
+}
+
+/* Toolbar styling */
+.toolbar {
+    background: var(--lumo-contrast-5pct);
+    padding: var(--lumo-space-m);
+    border-radius: var(--lumo-border-radius-m);
+    margin-bottom: var(--lumo-space-l);
+}
+
+/* Headers */
+h1, h2 {
+    color: var(--lumo-primary-text-color);
+    margin: var(--lumo-space-m) 0;
+}
+
+/* Button styling */
+vaadin-button.primary {
+    background-color: var(--lumo-primary-color);
+    color: var(--lumo-primary-contrast-color);
+}
+
+vaadin-button.error {
+    background-color: var(--lumo-error-color);
+    color: var(--lumo-error-contrast-color);
+}
+
+.footer {
+    background-color: var(--lumo-contrast-5pct);
+    padding: var(--lumo-space-m);
+    margin-top: auto;
+    border-top: 1px solid var(--lumo-contrast-10pct);
+}
+
+.footer span {
+    color: var(--lumo-secondary-text-color);
+}
+
+.footer a {
+    color: var(--lumo-primary-color);
+    text-decoration: none;
+    margin: 0 var(--lumo-space-s);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
